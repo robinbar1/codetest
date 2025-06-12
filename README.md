@@ -20,7 +20,7 @@ Ce dépôt fournit des scripts de base pour déployer automatiquement une machin
 ## Notes supplémentaires
 - Vérifiez que votre système supporte bien le passthrough PCI (IOMMU actif, GPU réservé à la VM…).
 - Les performances et la latence dépendent fortement des pilotes et de la configuration réseau pour Parsec.
-- N'oubliez pas d'installer les pilotes GPU AMD adéquats dans la VM.
+- Le script `guest/windows_setup.ps1` installe aussi automatiquement les pilotes GPU AMD.
 
 ## Tests
 Un script `scripts/test_scripts.sh` permet de vérifier rapidement la syntaxe des autres scripts du dépôt.

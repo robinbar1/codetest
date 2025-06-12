@@ -13,6 +13,9 @@ winget source update
 winget install -e --id Valve.Steam
 winget install -e --id Parsec.Parsec
 
+# Installer les pilotes GPU AMD
+winget install -e --id AMD.AMDSoftwareCloudEdition
+
 # Quelques réglages pour la latence
 reg add "HKCU\Software\Microsoft\GameBar" /v UseGameMode /t REG_DWORD /d 1 /f
 
