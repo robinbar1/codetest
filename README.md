@@ -29,4 +29,6 @@ Discrete Device Assignment if `GPU_PCI_ID` is provided.
 ## Testing scripts
 
 Run `scripts/test_scripts.sh` to lint the shell scripts and validate the
-PowerShell syntax when a PowerShell executable is available.
+PowerShell syntax when a PowerShell executable is available. Windows users
+can run `scripts/test_scripts.ps1` in PowerShell to perform the same checks
+without a Bash environment.
